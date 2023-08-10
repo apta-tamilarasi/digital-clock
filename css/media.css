@@ -1,0 +1,253 @@
+@media(min-width:260px){
+    
+
+h3{
+    text-align: center;
+    color:aqua;
+    margin: auto;
+    width:50%;
+    padding:10px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 2px aqua;
+    background-color: black;
+}
+
+.clock{
+   
+    margin-top:20px;
+    background-color: black;
+   
+
+}
+
+.container{
+    
+    padding:3%;
+    box-shadow: 0 0 15px 2px aqua;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border:1px dotted aqua;
+    
+}
+
+
+
+
+.container div{
+    width:33.33%;
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+   
+   padding:2%;
+    font-size:20px;
+    color:aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#time{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 15px 2px aqua;
+    padding-top: 5px;
+    
+}
+
+span{
+    color:white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 1%;
+}
+
+
+h1{
+    color:white;
+    font-size: 18px;
+}
+}
+
+/*IPAD*/
+
+@media(min-width:660px){
+    
+    body{
+        padding:20px;
+    }
+    
+    
+    h3{
+        text-align: center;
+        color:aqua;
+        width: 15%;
+        margin: auto;
+        padding:10px;
+        border-radius: 20px;
+        box-shadow: 0 0 15px 2px aqua;
+        background-color: black;
+    }
+    
+    .clock{
+        margin:5%;
+        padding:1%;
+        
+        background-color: black;
+       
+    
+    }
+    
+    .container{
+        
+        padding:3%;
+        box-shadow: 0 0 15px 2px aqua;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        border:1px dotted aqua;
+        
+    }
+    
+    
+    
+    
+    .container div{
+        width:33.33%;
+     
+        text-align: center;
+    }
+    
+    p{
+        color:white;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    h2{
+       
+       padding:2%;
+        font-size: 32px;
+        color:aqua;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    
+    
+    #time{
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0 0 15px 2px aqua;
+        padding-top: 10px;
+        
+    }
+    
+    span{
+        color:white;
+        font-size: 32px;
+        font-weight: bolder;
+        padding-top: 1%;
+    }
+    
+    
+    h1{
+        color:white;
+        font-size: 32px;
+    }
+    }
+
+
+    /*LAB*/
+
+    @media(min-width:1000px){
+    
+        body{
+            padding:20px;
+        }
+        
+        
+        h3{
+            text-align: center;
+            color:aqua;
+            width: 15%;
+            margin: auto;
+            padding:10px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px 2px aqua;
+            background-color: black;
+        }
+        
+        .clock{
+            margin:5%;
+            padding:1%;
+            
+            background-color: black;
+           
+        
+        }
+        
+        .container{
+            
+            padding:3%;
+            box-shadow: 0 0 15px 2px aqua;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            border:1px dotted aqua;
+            
+        }
+        
+        
+        
+        
+        .container div{
+            width:33.33%;
+         
+            text-align: center;
+        }
+        
+        p{
+            color:white;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        h2{
+           
+           padding:2%;
+            font-size: 32px;
+            color:aqua;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        
+        
+        #time{
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0 0 15px 2px aqua;
+            padding-top: 10px;
+            
+        }
+        
+        span{
+            color:white;
+            font-size: 32px;
+            font-weight: bolder;
+            padding-top: 1%;
+        }
+        
+        
+        h1{
+            color:white;
+            font-size: 32px;
+        }
+        }
